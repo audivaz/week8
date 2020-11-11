@@ -8,7 +8,9 @@ const subtract = function subtract() {
 } 
 
 
-add ();
-subtract();
 
 module.exports = { add, subtract };
+
+
+    console.log(module.exports);
+

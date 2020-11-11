@@ -4,5 +4,6 @@
 
 const file = require('./export.js');
 
-mod.add();
-mod.subtract();
+file.add();
+file.subtract();
+    console.log(file);

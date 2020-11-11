@@ -1,8 +1,24 @@
 
-const { fstat } = require('fs');
+
 // 12
 
-var path = require('path');
+const path = require('path');
+
+const fs = require('fs');
 
 
-fs.access(mkdir());
+
+
+// 13
+
+fs.mkdir(path.join(__dirname, 'myNewFolder'), {}, (err) => {
+
+});
+
+
+
+
+
+// 14
+
+fs.access();
