@@ -21,4 +21,4 @@ fs.mkdir(path.join(__dirname, 'myNewFolder'), {}, (err) => {
 
 // 14
 
-fs.access();
+fs.access(path.join(__dirname, 'myNewFolder'), fs);

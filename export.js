@@ -9,7 +9,7 @@ const subtract = function subtract() {
 
 
 
-module.exports = { add, subtract };
+module.exports = { add, subtract, name:'audie' };
 
 
     console.log(module.exports);

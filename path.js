@@ -1,12 +1,12 @@
 
 
 // 9
-var path = require('path');
+const path = require('path');
 
 
 
 // 10
-var myPath = ('./import.js/export.js');
+const myPath = ('./import.js/export.js');
 
 
 
